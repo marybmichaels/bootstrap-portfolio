@@ -11,7 +11,10 @@ $(document).ready(function () {
     $('.giphy').on("click", function() {
         window.open("https://marybmichaels.github.io/giftastic/", "_self");
     });
-    // $('.sports').on("click", function() {
-    //     window.open("https://marybmichaels.github.io/.../", "_self");
-    // })
+    $('.sports').on("click", function() {
+        window.open("https://marybmichaels.github.io/project-1/", "_self");
+    });
+    $('.liri-bot').on("click", function() {
+        window.open("https://marybmichaels.github.io/nodejs-liri/", "_self");
+    });
 });
