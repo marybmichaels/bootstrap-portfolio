@@ -17,4 +17,7 @@ $(document).ready(function () {
     $('.liri-bot').on("click", function() {
         window.open("https://marybmichaels.github.io/nodejs-liri/", "_self");
     });
+    $('.burger').on("click", function() {
+        window.open("https://still-falls-83545.herokuapp.com/", "_self");
+    });
 });
