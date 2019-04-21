@@ -1,11 +1,153 @@
-img {
-    object-fit: cover;
-    border-width: 3px;
-    border-color: red;
-    width: 300px;
-    height: 337px;
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 100px;
+  color: #4E4E4E;
+  letter-spacing: 0.23px;
+  text-align: center;
+  }
+  
+h2 {
+  font-weight: 400;
+  font-size: 35px;
+  color: #4E4E4E;
+  letter-spacing: 0.08px;
+  }
+  
+p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #4E4E4E;
+  letter-spacing: 0.03px;
+  }
+  
+nav li {
+  font-weight: 300!important;
+  font-size: 18px!important;
+  color: #4E4E4E!important;
+  letter-spacing: 0.03px!important;
+  }
+  
+#active {
+  font-weight: 900!important;
+  color: #FF0034!important;
+  }
+  
+.sec-cta {
+  opacity: 0.83;
+  border: 1px solid #000000;
+  width: 100%;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  margin: auto;
+  }
+  
+.pri-cta {
+  height: 40px;
+  width: 100%;
+  margin: auto;
+  margin-top: 5px;
+  opacity: 0.83;
+  background: #000000;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  }
+  
+.header-line {
+  border-top: 1px solid #4E4E4E;
+  max-width: 650px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  padding: 0;
+  padding-top: 5px;
+  }
+  
+.contact-link {
+  font-weight: 300;
+  font-size: 18px;
+  color: #4E4E4E;
+  letter-spacing: 0.03px;
+  text-decoration: underline;
+  margin-right: 20px;
+  }
+  
+.btn-text {
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: 0.03px;
+  text-align: center;
   }
 
-  body {
-      background-color: orange;
-  }
+.proj-img {
+  object-fit: cover;
+  object-position: center center;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  padding-left: 0;
+  /* filter: grayscale(100%) */
+}
+
+.projCard {
+  margin: auto;
+  position: relative;
+  padding:50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.row {
+  margin: auto!important;
+}
+
+.info {
+padding-left: 0;
+padding-right: 0;
+}
+
+#no-underline {
+  text-decoration: none;
+  margin-right: 0;
+}
+
+#contact, #submit {
+  max-width: 650px;
+  margin: auto;
+}
+
+#submit {
+  position: absolute;
+  left: 0;
+}
+
+.form-control {
+  border: none;
+  background-color: #D8D8D8;
+  opacity: .48;
+}
+
+@media only screen and (max-width: 768px) {
+  .sec-cta {
+    opacity: 0.83;
+    border: 1px solid #000000;
+    width: 100%;
+    margin: auto;
+    }
+    
+  .pri-cta {
+    height: 40px;
+    width: 100%;
+    margin: auto;
+    margin-top: 5px;
+    opacity: 0.83;
+    background: #000000;
+    }
+}
+
+/* @media only screen and (min-width: 768px) {} */
