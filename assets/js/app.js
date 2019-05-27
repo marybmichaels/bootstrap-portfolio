@@ -9,6 +9,14 @@ $(document).ready(function() {
             github: "https://github.com/marybmichaels/unit-4-game",
         },
         {
+            name: "Flower Hangman",
+            link: "https://marybmichaels.github.io/word-guess-game/",
+            date: "May 26, 2019",
+            image: "https://images.unsplash.com/photo-1458322493962-69c5a4ef7ddf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80",
+            description: "Single page JavaScript word guess game.",
+            github: "https://github.com/marybmichaels/word-guess-game",
+        },
+        {
             name: "Trivia Game",
             link: "https://marybmichaels.github.io/TriviaGame/",
             date: "January 24, 2019",
