@@ -64,6 +64,14 @@ $(document).ready(function() {
             description: "Uses mySQL database hosted on Heroku.",
             github: "https://github.com/marybmichaels/proj-2",
         },
+        {
+            name: "React Clicky Game",
+            link: "https://marybmichaels.github.io/react-clicky-game",
+            date: "May 27, 2019",
+            image: "https://images.unsplash.com/photo-1506729623306-b5a934d88b53?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80",
+            description: "React based application that challenges the user's memory skills.",
+            github: "https://github.com/marybmichaels/react-clicky-game",
+        },
     ];
 
     for (i=0; i<projects.length; i++) {
