@@ -49,6 +49,14 @@ $(document).ready(function() {
             github: "https://github.com/marybmichaels/project-1",
         },
         {
+            name: "Bamazon",
+            link: "https://marybmichaels.github.io/NodeJS-mySQL/",
+            date: "May 2019",
+            image: "https://images.unsplash.com/photo-1532795986-dbef1643a596?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80",
+            description: "A NodeJS and mySQL application. Available for download on github. Otherwise, view gifs of the working app on the .readme!",
+            github: "https://github.com/marybmichaels/NodeJS-mySQL/",
+        },
+        {
             name: "Eat Da Burger",
             link: "https://still-falls-83545.herokuapp.com/",
             date: "March 30, 2019",
@@ -72,6 +80,7 @@ $(document).ready(function() {
             description: "React based application that challenges the user's memory skills.",
             github: "https://github.com/marybmichaels/react-clicky-game",
         },
+        
     ];
 
     for (i=0; i<projects.length; i++) {
